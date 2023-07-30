@@ -2,5 +2,5 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-***API Rest***
+<h1>API Rest</h1>
 >Desenvolvimento de uma API Rest sistema clinica médica
