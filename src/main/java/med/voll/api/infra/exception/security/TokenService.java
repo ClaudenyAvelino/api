@@ -27,7 +27,7 @@ public class TokenService {
                     .withExpiresAt(dataExpiracao())
                     .sign(algoritmo);
         } catch (JWTCreationException exception){
-            throw new RuntimeException("erro ao gerrar token jwt", exception);
+            throw new RuntimeException("erro ao gerar token jwt", exception);
         }
     }
 
@@ -43,9 +43,9 @@ public class TokenService {
             throw new RuntimeException("Token JWT inválido ou expirado!");
         }
     }
-    
 
     private Instant dataExpiracao() {
         return LocalDateTime.now().plusHours(2).toInstant(ZoneOffset.of("-03:00"));
     }
+
 }
